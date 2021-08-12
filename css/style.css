@@ -1,0 +1,464 @@
+/* colors/fonts
+    background - #3dc4d6
+    nav - #4ccfc1
+    shop buttons - #3ec799
+    hover - #c23b49
+    colophon - #28a89b
+    logo - pattaya, sanserif
+    text - oswald, sansserif
+*/
+
+/* start generic */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inner {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.icon-basket {
+    color: #3dc4d6;
+    font-size: 200%;
+    margin-top: 6%;
+}
+
+.icon-basket:hover {
+    color: #E76876;
+    transition: 0.3s;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+    font-size: 32px;
+    color: red;
+}
+  ========================================== */
+
+/* end generic */
+
+/* start header */
+
+/* start top header */
+
+.top-header {
+    background-color: #ffffff;
+}
+
+.top-header .inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 50px;
+    width: 30%;
+    margin: 0;
+}
+
+.logo a {
+    color: #3dc4d6;
+}
+
+.logo a:hover {
+    color: #E76876;
+    transition: 0.3s;
+}
+
+.search-bar {
+    height: 30%;
+    width: 40%;
+    margin-top: 30px;
+    border-radius: 2%;
+    border-right: none;
+    border-bottom: 2px solid #000;
+}
+
+.basket {
+    display: flex;
+    width: 30%;
+}
+
+.icon-basket {
+    margin-top: 70%;
+}
+
+.icon-search {
+    margin-top: 30px;
+    color: #8D8A8A;
+    margin-right: 50px;
+    font-size: 135%;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+}
+
+.icon-search:hover {
+    color: #E76876;
+}
+
+.total {
+    font-family: 'Oswald', sans-serif;
+    color: #8D8A8A;
+    font-size: 150%;
+    padding-left: 3%;
+}
+
+/* end top header */
+
+/* start bot header */
+
+.bot-header {
+    background-color: #4ccfc1;
+    border: solid 5px #4ccfc1;
+}
+
+.top-nav-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.top-nav-list-item {
+    text-decoration: none;
+    border-right: #ffffff solid 2px;
+}
+
+.top-nav-list-item:last-child {
+    border: none;
+}
+
+.top-nav-list-item a{
+    color: #ffffff;
+    font-size: 120%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding-right: 25px;
+}
+
+.top-nav-list-item a:hover {
+    color: #E76876;
+    transition: 0.3s;
+}
+
+/* end bot header */
+
+/* end header */
+
+/* start main */
+
+/* start top sec */
+
+.top-main-sec {
+    background-color: #3dc4d6;
+    height: 435px;
+}
+
+.top-main-sec .inner {
+    display: flex;
+    justify-content: center;
+}
+
+.top-main-img {
+    margin-top: 20px;
+}
+
+.top-main-cont {
+    margin-top: 20px;
+    padding-left: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    width: 30%;
+}
+
+.top-main-header {
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.top-main-text {
+    font-size: 18px;
+}
+
+.top-main-shop {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border: 2px solid #ffffff;
+    background-color: #3dc4d6;
+    border-radius: 5%;
+    padding: 0 5%;
+    text-transform: uppercase;
+}
+
+.top-main-shop:hover {
+    background-color: #E76876;
+    transition: 0.3s;
+}
+
+.top-main-shop a{
+    color: #ffffff;
+}
+
+.bot-top-caro {
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    padding-top: 1%;
+    width: 300px;
+}
+
+.slider {
+    display: inline;
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.slider:hover {
+    background-color: #E76876;
+    transition: 0.3s;
+}
+
+/* end top main */
+
+/* start mid caro*/
+
+.mid-main-caro {
+    display: flex;
+}
+
+.mid-main-caro .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoe-section {
+    display: flex;
+    width: 31%;
+    border-right: 1px solid #8D8A8A;
+}
+
+.shoe-section:last-child {
+    border: none;
+}
+
+.shoe-img {
+    margin-top: 20%;
+}
+
+.shoe-sec-con {
+    font-size: 150%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #8D8A8A;
+    padding: 0 2%;
+    width: 35%;
+}
+
+.caro-button {
+    padding: 0 10%;
+    border: 1px solid #3ec799;
+    background-color: #3ec799;
+    border-radius: 10%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+
+.caro-button a{
+    color: #ffffff;
+}
+
+.caro-button:hover {
+    background-color: #E76876;
+    border: #E76876 1px solid;
+    transition: 0.3s;
+}
+
+.scroll {
+    font-size: 400%;
+    padding: 58px 25px 0 25px;
+    margin: 0;
+    transform: scale(1,4);
+}
+
+.scroll a {
+    color: #d2d2d2;
+}
+
+.scroll a:hover {
+    color: #E76876;
+    transition: 0.3s;
+}
+
+/* end mid caro */
+
+/* start bot main */
+
+.feat-prod-sec {
+    background-color: #3dc4d6;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 120%;
+}
+
+.top-shop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bot-shop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.shop-item {
+    border: 3px solid #d2d2d2;
+    border-bottom: 5px solid #3ec799;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    padding-left: 40px;
+}
+
+.item-name {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #8D8A8A;
+}
+
+.bot-shop-item {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.item-price {
+    font-family: 'Oswald', sans-serif;
+    color: #8D8A8A;
+    font-size: 150%;
+    height: 60%;
+    margin-top: -0px;
+    padding-right: 20px;
+}
+
+.buy-button {
+    border: 1px solid #3ec799;
+    background-color: #3ec799;
+    border-radius: 10%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.buy-button a{
+    font-size: 140%;
+    color: #ffffff;
+}
+
+.buy-button:hover {
+    background-color: #E76876;
+    border: 1px solid #E76876;
+    transition: 0.3s;
+}
+/* end bot main */
+
+/* end main */
+
+/* start footer */
+
+/* start main footer */
+
+.main-footer {
+    background-color: #3dc4d6;
+    margin-top: 60px;
+}
+
+.main-footer .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer-cont {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    font-size: 140%;
+    text-align: left;
+}
+
+.main-foot-cont-header {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.main-foot-cont-list {
+    margin-left: 20px;
+}
+
+.main-foot-cont-list-item a{
+    color: #ffffff;
+}
+
+.main-foot-cont-list-item a:hover {
+    color: #E76876;
+    transition: 0.3s;
+}
+
+/* end main footer */
+
+/* start colophon */
+
+.colophon {
+    background-color: #28a89b;
+}
+
+.colophon .inner {
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+
+.colophon .inner a{
+    color: #ffffff;
+}
+
+.colophon .inner a:hover {
+    color: #E76876;
+    transition: 0.3s;
+}
+
+/* end colophon */
+
+/* end footer */
